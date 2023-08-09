@@ -10,7 +10,6 @@ jobs:
         with:
           fetch-depth: 0
       - run: |
-          git config user.name "talk-to"
           git fetch origin master
           git fetch origin prod
           git checkout master
